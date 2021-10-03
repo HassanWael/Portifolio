@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+#logo{
+    width: fit-content;
+    height: fit-content;
+}
+.pad-rem{
+    padding: 1rem;
+}
+#projects{
+    color: #6ECB63;
+}
+.skills{
+    color:#6ECB63;
+}
+.font{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem ;
+    color: #6ECB63;
+}
+.font-h2{
+    font-family: sans-serif; font-size: 1.5rem; z-index: 1; color: #fff;
+}
+.font-h3-h4{
+    font-family: sans-serif; font-size: 1.3rem; z-index: 1; color:  white;
+    text-align: justify;
+}
+#wave{
+    position: absolute; 
+    top: -8.5em;
+   
+}
+#mid-section{
+    margin-top: 3rem;
+    z-index: 1;
+    background-color: #6ECB63;
+    align-items: center;
+}
+.android-web{
+    margin: 0.5rem auto;
+    height: 40rem;
+}
+.box {
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+ padding: 1rem;
+}
+.box-span {
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+
+}
+.wave-container{
+    margin-top: 9rem;position: relative;
+}
+.margin-top{
+    margin-top: 5rem;
+}
+.padding-bot{
+    padding-bottom: 6rem;
+}
+.margin-bot{
+    margin-bottom: 1.5rem;
+}
+.my-self{
+    margin-top: 10rem; background-color: #6ECB63; padding: 3rem;  border-radius: 6px;
+        box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+}
+.icons{
+   width: 9rem;
+   height: 8rem;
+   margin:1rem ;
+}
+p:not(#footer){
+    text-align: center;
+}
+.navbar-padding{
+    padding: 0.5rem;
+}
+
+.carousel-caption {
+    position: initial;
+    z-index: 10;
+    padding: 5rem 8rem;
+    color: rgba(78, 77, 77, 0.856);
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 2rem
+}
+
+@media(max-width:767px) {
+    .carousel-caption {
+        position: initial;
+        z-index: 10;
+        padding: 3rem 2rem;
+        color: rgba(78, 77, 77, 0.856);
+        text-align: center;
+        font-size: 0.7rem;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 1.5rem
+    }
+}
+
+.carousel-caption img {
+    width: 6rem;
+    border-radius: 5rem;
+    margin-top: 2rem
+}
+
+@media(max-width:767px) {
+    .carousel-caption img {
+        width: 4rem;
+        border-radius: 4rem;
+        margin-top: 1rem
+    }
+}
+
+#image-caption {
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: 0.5rem
+}
+
+@media(max-width:767px) {
+    #image-caption {
+        font-style: normal;
+        font-size: 0.6rem;
+        margin-top: 0.5rem
+    }
+}
+
+i {
+    background-color: rgb(223, 56, 89);
+    padding: 1.4rem
+}
+
+@media(max-width:767px) {
+    i {
+        padding: 0.8rem
+    }
+}
+
+.carousel-control-prev {
+    justify-content: flex-start
+}
+
+.carousel-control-next {
+    justify-content: flex-end
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    transition: none;
+    opacity: unset
+}
